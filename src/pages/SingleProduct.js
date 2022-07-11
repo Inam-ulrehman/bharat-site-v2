@@ -1,6 +1,6 @@
 import { React, useState, useEffect } from 'react'
 import { useSelector } from 'react-redux'
-import { useParams } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import styled from 'styled-components'
 import Footer from '../components/Footer'
 
@@ -83,7 +83,9 @@ const SingleProduct = () => {
                   please reach us one of our team member would be please to help
                   you ASAP...
                 </p>
-                <button className='btn'>Reach us</button>
+                <Link to='/contact' className='btn'>
+                  Reach us
+                </Link>
                 <p>if click reach us we show contact us component</p>
               </div>
             </div>
