@@ -86,7 +86,7 @@ const SingleProduct = () => {
                 <Link to='/contact' className='btn'>
                   Reach us
                 </Link>
-                <p>if click reach us we show contact us component</p>
+                <p>if you like to contact us we show contact us component</p>
               </div>
             </div>
             <Footer />
